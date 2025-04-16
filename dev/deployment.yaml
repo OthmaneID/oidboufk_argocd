@@ -12,11 +12,10 @@ spec:
     metadata:
       labels:
         app: oidboufkapp
-        version: v2
     spec:
       containers:
         - name: wil42-app
-          image: wil42/playground:v2
+          image: wil42/playground:v1
           ports:
             - containerPort: 8080
       
