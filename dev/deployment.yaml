@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: app
+  name: oidboufkapp
   labels:
-    app: app
+    app: oidboufkapp
 spec:
   selector:
     matchLabels:
-      app: app
+      app: oidboufkapp
   template:
     metadata:
       labels:
-        app: app
+        app: oidboufkapp
     spec:
       containers:
         - name: wil42-app
