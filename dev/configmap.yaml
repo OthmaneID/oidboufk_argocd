@@ -7,6 +7,6 @@ data:
   redactionKeys: |
     - password
     - secret
-    - created_at
+    - creationTimestamp
     - repoURL
     - name
