@@ -11,6 +11,7 @@ resources:
   # - application.yaml
   # - ingress.yaml
   - configmap.yaml
+  - project.yaml
 
 commonLabels:
   app: app
