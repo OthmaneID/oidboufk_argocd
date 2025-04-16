@@ -8,7 +8,6 @@ metadata:
 resources:
   - deployment.yaml
   - service.yaml
-  - ingress.yaml
   - application.yaml
 
 commonLabels:
