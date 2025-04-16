@@ -1,0 +1,19 @@
+# apiVersion: argoproj.io/v1alpha1
+# kind: Application
+# metadata:
+#   name: app
+#   namespace: argocd
+# spec:
+#   project: default
+#   source:
+#     repoUrl: https://github.com/OthmaneID/argocd
+#     targetRevision: HEAD
+#   destination:
+#     namespace: dev
+#     server: https://kubernetes.default.svc
+
+# apiVersion: kustomize.config.io/v1beta1
+# kind: Kustomization
+# resources:
+#   - deployments.yaml
+#   - services.yaml
