@@ -9,6 +9,8 @@ resources:
   - deployment.yaml
   - service.yaml
   # - application.yaml
+  # - ingress.yaml
+  - configmap.yaml
 
 commonLabels:
   app: app

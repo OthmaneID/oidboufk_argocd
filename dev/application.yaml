@@ -4,7 +4,7 @@ metadata:
   name: app
   namespace: argocd
 spec:
-  project: default
+  project: development
   
   source:
     repoURL: https://github.com/OthmaneID/oidboufk_argocd.git

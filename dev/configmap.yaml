@@ -1,0 +1,12 @@
+apuVersion: v1
+kind: ConfigMap
+metadata:
+  name: oidboufkapp-cm
+  namespace: argocd
+data:
+  redactionKeys: |
+    - password
+    - secret
+    - created_at
+    - repoURL
+    - name
