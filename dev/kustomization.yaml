@@ -3,6 +3,8 @@ kind: Kustomization
 namespace: dev
 metadata:
   name: app
+  labels:
+    app: app
 resources:
   - https://github.com/OthmaneID/oidboufk_argocd.git/dev
 
