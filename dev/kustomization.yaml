@@ -8,7 +8,7 @@ metadata:
 resources:
   - deployment.yaml
   - service.yaml
-  - application.yaml
+  # - application.yaml
 
 commonLabels:
   app: app
