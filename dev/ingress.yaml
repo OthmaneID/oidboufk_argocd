@@ -10,6 +10,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: oidboufk-service
+                name: oidboufkapp
                 port:
                   number: 80
