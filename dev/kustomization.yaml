@@ -6,7 +6,10 @@ metadata:
   labels:
     app: app
 resources:
-  - https://github.com/OthmaneID/oidboufk_argocd.git/dev
+  - deployment.yaml
+  - service.yaml
+  - ingress.yaml
+  - application.yaml
 
 commonLabels:
   app: app
