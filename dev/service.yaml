@@ -5,7 +5,7 @@ metadata:
   name: oidboufk-service
 spec:
   selector:
-    app: oidboufk-service
+    app: oidboufk
   ports:
     - protocol: TCP
       port: 80
