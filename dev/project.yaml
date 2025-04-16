@@ -1,7 +1,8 @@
-apiVersion: v1
-kind: AddProject
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
 metadata:
   name: development
+  namespace: argocd
 spec:
   sourceRepos:
   - '*'
