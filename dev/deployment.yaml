@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: oidboufkapp
+  namespace: dev
   labels:
     app: oidboufkapp
 spec:
@@ -15,6 +16,6 @@ spec:
     spec:
       containers:
         - name: wil42-app
-          image: wil42/playground:v1
+          image: wil42/playground:v2
           ports:
             - containerPort: 8888
