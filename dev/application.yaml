@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   project: development
-  
+
   source:
     repoURL: https://github.com/OthmaneID/oidboufk_argocd.git
     path: dev
@@ -21,3 +21,4 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+      - createProject=true
